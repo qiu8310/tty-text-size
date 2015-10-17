@@ -1,12 +1,12 @@
 # tty-text-size
 [![NPM version](https://badge.fury.io/js/tty-text-size.svg)](https://npmjs.org/package/tty-text-size)
-[![GitHub version][git-tag-image]][project-url]
 [![Build Status][travis-image]][travis-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
 
-[project-url]: https://github.com/qiu8310/tty-text-size
-[git-tag-image]: http://img.shields.io/github/tag/qiu8310/tty-text-size.svg
 [travis-url]: https://travis-ci.org/qiu8310/tty-text-size
 [travis-image]: https://travis-ci.org/qiu8310/tty-text-size.svg?branch=master
+[coveralls-url]: https://coveralls.io/r/qiu8310/tty-text-size
+[coveralls-image]: https://coveralls.io/repos/qiu8310/tty-text-size/badge.png
 
 
 Get string's real length on ternimal.
