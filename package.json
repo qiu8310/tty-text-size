@@ -1,0 +1,53 @@
+{
+  "name": "tty-text-size",
+  "version": "1.0.0",
+  "description": "Get string's real length on ternimal.",
+  "main": "src/tty-text-size.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiu8310/tty-text-size.git"
+  },
+  "scripts": {
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec && rm -rf ./coverage",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "files": [
+    "data/",
+    "src/",
+    "README.md"
+  ],
+  "keywords": [
+    "tty-text-size",
+    "tty-str-size",
+    "tty-string-size",
+    "cli-text-size",
+    "cli-string-size",
+    "cli-str-size",
+    "tty-text-length",
+    "tty-str-length",
+    "tty-string-length",
+    "cli-text-length",
+    "cli-string-length",
+    "cli-str-length",
+    "tty",
+    "text",
+    "size",
+    "length",
+    "cli",
+    "words",
+    "wrap"
+  ],
+  "author": "Mora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qiu8310/tty-text-size/issues"
+  },
+  "homepage": "https://github.com/qiu8310/tty-text-size",
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3",
+    "should": "^7.1.0"
+  }
+}
