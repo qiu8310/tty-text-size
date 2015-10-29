@@ -32,7 +32,6 @@ ttyTextSize('♡', {ambsize: 2}); // => 2
 * Not support `\t`, `\n`, `\v`, `\f`, `\r`, because its size is not predictable.
 
 
-
 ## Test result
 
 ```
@@ -55,6 +54,11 @@ ttyTextSize('♡', {ambsize: 2}); // => 2
       ✓ should support array argument
       ✓ should throws when argument is not number, string or array of number or string
 ```
+
+## 待办事项
+
+* [ ] Window 用户会用安装 mingw， mingw 支持 unicode 字符， 它会在系统中添加 `MSYSTEM=MINGW32` 的环境变量
+
 
 ## 扩展知识
 
